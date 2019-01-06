@@ -13,7 +13,7 @@ BEGIN
    SET theta = longitude_1 - longitude_2;
    SET dist = DEGREES(ACOS(SIN(RADIANS(latitude_1)) * SIN(RADIANS(latitude_2)) +  COS(RADIANS(latitude_1)) * COS(RADIANS(latitude_2)) * COS(RADIANS(theta))));
    SET miles = dist * 60 * 1.1515;	
-   SET kms = miles * 1.609344);	
+   SET kms = miles * 1.609344;	
    RETURN kms;
 END$$
 
