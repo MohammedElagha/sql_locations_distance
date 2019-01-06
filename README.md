@@ -6,5 +6,5 @@ Using distance calculation equation, the distance produced in miles then convert
 The point be as (latitude , longitude).
 e.g. (26.214531 , -60.515656)
 
--90 <= Latitude <= 90
--180 <= Longitude <= 180
+* -90 <= Latitude <= 90
+* -180 <= Longitude <= 180
